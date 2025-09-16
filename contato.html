@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StyleUp - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>StyleUp</h1>
+        <p class="slogan">Iluminando sua imagem pessoal</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Serviços</a></li>
+                <li><a href="contato.html" class="ativo">Contato</a></li>
+                 <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo para falar conosco. Responderemos o mais breve possível e agendar uma consulta.</p>
+
+        <form action="#" method="post">
+            <div class="campo">
+                <label for="nome">Nome Completo: *</label>
+                <input type="text" id="nome" name="nome" required minlength="2" />
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail: *</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone: *</label>
+                <input type="tel" id="telefone" name="telefone" required pattern="[0-9\s\(\)\-\+]{10,}" />
+            </div>
+
+            <div class="campo">
+                <label for="servico">Serviço de Interesse: *</label>
+                <select id="servico" name="servico" required>
+                    <option value="">Selecione um serviço</option>
+                    <option value="consultoria-completa">Consultoria de Estilo Completa</option>
+                    <option value="personal-shopping">Personal Shopping</option>
+                    <option value="coloracao-pessoal">Análise de Coloração Pessoal</option>
+                    <option value="consultoria-express">Consultoria Express</option>
+                    <option value="styling-eventos">Styling para Eventos</option>
+                    <option value="organizacao-guardaroupa">Organização de Guarda-roupa</option>
+                    <option value="pacote-promocional">Pacote Promocional</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem: *</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos um pouco sobre suas necessidades e expectativas..." required minlength="10"></textarea>
+            </div>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+
+        <section class="info-contato">
+            <h3>Outras formas de contato</h3>
+            <div class="contato-detalhes">
+                <p><strong>E-mail:</strong> contato@styleup.com</p>
+                <p><strong>Telefone:</strong> (11) 99999-9999</p>
+                <p><strong>WhatsApp:</strong> (11) 99999-9999</p>
+                <p><strong>Endereço:</strong> Rua da Moda, 123 - Vila Estilo, São Paulo - SP</p>
+                <p><strong>Horário de Atendimento:</strong> Segunda à Sexta: 9h às 18h | Sábado: 9h às 14h</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>contato@styleup.com | (11) 99999-9999</p>
+        <p><a href="index.html">Voltar à página inicial</a></p>
+        <p>© 2025 StyleUp. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
