@@ -1,0 +1,3 @@
+# Relatório de Melhorias - Site StyleUp
+
+Adicionei breakpoints para 1024px (tablets) e 768px (mobile), transformando grids de múltiplas colunas em 2 colunas e depois 1 coluna, menu horizontal virou vertical e reduzi tamanhos das fontes progressivamente. Nas melhorias de acessibilidade, corrigi todos os atributos `alt` das imagens, mudando textos genéricos como "imagem" para descrições específicas como "Consultora de estilo ajudando cliente a escolher roupas elegantes". O que funcionou bem foi aproveitar a estrutura responsiva já existente no site, facilitando as implementações. Ainda precisa melhorar indicadores visuais de foco para navegação por teclado e testar contrastes de cores.
